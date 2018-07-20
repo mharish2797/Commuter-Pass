@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg5"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" User Details:"
+        android:id="@+id/usdet"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#0000ff"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Fname:"
+        android:id="@+id/fnam"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#ff6600"
+       />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Uname:"
+    android:id="@+id/unam"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#6600cc"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Email Id:"
+    android:id="@+id/emid"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#ff6600"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Phone Number:"
+    android:id="@+id/phon"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#6600cc"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Address :"
+    android:id="@+id/adre"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#ff6600"
+   />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Source:"
+    android:id="@+id/srce"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#6600cc"
+/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Destination:"
+    android:id="@+id/dst"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#ff6600"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Fare:"
+    android:id="@+id/far"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:textSize="20dp"
+    android:textColor="#6600cc"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Concession:"
+        android:id="@+id/concs"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#ff6600"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Validity till:"
+        android:id="@+id/vtil"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#6600cc"
+        />
+
+</LinearLayout>
+</ScrollView>

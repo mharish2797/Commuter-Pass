@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Commuter Pass</string>
+    <string name="about_link"><a href="https://scfu.onlinesbi.com/vfim/login.htm">Pay in web</a></string>
+
+</resources>

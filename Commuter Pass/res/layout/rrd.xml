@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/bgimg5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+        Click to proceed :
+        "
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/chooseopt"
+        android:textSize="30dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/bregister"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:theme="@style/MyButton"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Renew"
+        android:id="@+id/brenew"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:theme="@style/MyButton"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:id="@+id/bdetail"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/MyButton"/>
+</LinearLayout>

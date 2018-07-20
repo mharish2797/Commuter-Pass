@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fare Summary:"
+        android:id="@+id/fsum"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#6600cc"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Source:"
+        android:id="@+id/psrc"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#6600cc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Destination:"
+        android:id="@+id/pdet"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#6600cc"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pass Valid till :"
+        android:id="@+id/pdate"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#6600cc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Concession :"
+        android:id="@+id/pcon"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#6600cc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fare:"
+        android:id="@+id/pfare"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="20dp"
+        android:textColor="#6600cc"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Pay through App!"
+        android:id="@+id/fpay"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/MyButton"/>
+</LinearLayout>

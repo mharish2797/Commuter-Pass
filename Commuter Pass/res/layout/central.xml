@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg5"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Beach-Central Thiruttani :"
+        android:id="@+id/cent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="  Source:"
+        android:id="@+id/csrc"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#ffc34d"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/cspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay"
+        android:theme="@style/MyButton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text=" Destination:"
+        android:id="@+id/cdst"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#ffc34d"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/cspinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay"
+        android:theme="@style/MyButton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text=" Duration:"
+        android:id="@+id/cdur"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#ffc34d"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+
+        android:weightSum="1"
+        android:id="@+id/cradioGroup"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Month"
+            android:id="@+id/camonth"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Months"
+            android:id="@+id/ctmonth"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Concession:"
+        android:id="@+id/cconcess"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="30dp"
+        android:textColor="#ffc34d"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+
+        android:weightSum="1"
+        android:id="@+id/cradioGroup1"
+        >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="None"
+        android:id="@+id/cnon"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:id="@+id/cstud"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Worker"
+        android:id="@+id/cwork"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senior Citizen"
+        android:id="@+id/csnr"
+        />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Pass!"
+        android:id="@+id/cpass"
+        android:theme="@style/MyButton"/>
+</LinearLayout>
+</ScrollView>

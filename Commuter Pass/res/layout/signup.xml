@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/bgimg5">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up !"
+        android:id="@+id/signup"
+        android:textSize="30dp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Full Name*"
+        android:ems="10"
+        android:id="@+id/fname"
+        android:textColor="#ffc34d"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"
+        android:hint="Username*"
+        android:textColor="#ffc34d"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password*"
+        android:id="@+id/pwd"
+        android:textColor="#ffc34d"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Confirm Password*"
+        android:id="@+id/cpwd"
+        android:textColor="#ffc34d"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="E-Mail address*"
+        android:id="@+id/email"
+        android:textColor="#ffc34d"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="Mobile No.*"
+        android:id="@+id/phone"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffc34d"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:hint="Address*"
+        android:id="@+id/address"
+        android:textColor="#ffc34d"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G0!"
+        android:id="@+id/go"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/MyButton"
+        />
+
+</LinearLayout>
